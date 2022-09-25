@@ -1,6 +1,6 @@
 <?php
 // Configure your Subject Prefix and Recipient here
-$subjectPrefix = '[Contact via MA.com]';
+$subjectPrefix = '[MSG through MA.com]';
 $emailTo       = 'alkabbani@webetel.com';
 
 $errors = array(); // array to hold validation errors
