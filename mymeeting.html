@@ -36,201 +36,33 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
+    <script
+      src="https://8x8.vc/vpaas-magic-cookie-4ab7f9db41394c7cbc8daf795c25e732/external_api.js"
+      async
+    ></script>
+    <style>
+      html,
+      body,
+      #jaas-container {
+        height: 100%;
+      }
+    </style>
+    <script type="text/javascript">
+      window.onload = () => {
+        const api = new JitsiMeetExternalAPI("8x8.vc", {
+          roomName:
+            "vpaas-magic-cookie-4ab7f9db41394c7cbc8daf795c25e732/SampleAppLazyBonesTrailWonderfully",
+          parentNode: document.querySelector("#jaas-container"),
+          // Make sure to include a JWT if you intend to record,
+          // make outbound calls or use any other premium features!
+          // jwt: "eyJraWQiOiJ2cGFhcy1tYWdpYy1jb29raWUtNGFiN2Y5ZGI0MTM5NGM3Y2JjOGRhZjc5NWMyNWU3MzIvYTc1ZDc2LVNBTVBMRV9BUFAiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJqaXRzaSIsImlzcyI6ImNoYXQiLCJpYXQiOjE3MzQ1MzY4NTgsImV4cCI6MTczNDU0NDA1OCwibmJmIjoxNzM0NTM2ODUzLCJzdWIiOiJ2cGFhcy1tYWdpYy1jb29raWUtNGFiN2Y5ZGI0MTM5NGM3Y2JjOGRhZjc5NWMyNWU3MzIiLCJjb250ZXh0Ijp7ImZlYXR1cmVzIjp7ImxpdmVzdHJlYW1pbmciOmZhbHNlLCJvdXRib3VuZC1jYWxsIjpmYWxzZSwic2lwLW91dGJvdW5kLWNhbGwiOmZhbHNlLCJ0cmFuc2NyaXB0aW9uIjpmYWxzZSwicmVjb3JkaW5nIjpmYWxzZX0sInVzZXIiOnsiaGlkZGVuLWZyb20tcmVjb3JkZXIiOmZhbHNlLCJtb2RlcmF0b3IiOnRydWUsIm5hbWUiOiJUZXN0IFVzZXIiLCJpZCI6ImF1dGgwfDY3NjJlNTY1MDBiOTE1MGYzY2YzYzcwMiIsImF2YXRhciI6IiIsImVtYWlsIjoidGVzdC51c2VyQGNvbXBhbnkuY29tIn19LCJyb29tIjoiKiJ9.b5KmzNJeTsTjRbG5okHTAraMr6_6TY2wfc21cGTbxRvBxP5UEsXTpJHYdY6GxzFdylnik0fe22F9IbM7WtGkR22mN0l2I3XIj2Usgf5bnN7GUVKwitKdqocyA96iFyoHOdO52gqE80Wi_Cy9iwX62JP5QsPXrlo5k2GVKJpdXJPXNY-PS0AjHxXRK9O-5E_fjRzoeJj6tB9ciKqO13iX7Itug-7eLk8UHvLCCiHvPu2gBqrIq88it_ct98FBUYxmoKs2PZnCJZAI5KFOCRL2Kz5XnbdVN_imiL10uaA7krOJqj0ovx_2StxqZDZ5GNJmiSQG-_gKjEkqnrYz648oZw"
+        });
+      };
+    </script>
 </head>
 
 <body>
-
-    <!-- loader -->
-    <div class="fakeLoader"></div>
-    <!-- loader -->
-
-    <!-- header -->
-    <header id="home">
-
-        <!-- navbar -->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-
-                <!-- navbar brand or logo -->
-                <a href="#" class="navbar-brand">
-                    <h2>M.Alkabbani</h2>
-                </a>
-                <!-- end navbar brand or logo -->
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="navbarTogglerDemo" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a href="#home" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#resume" class="nav-link">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#portfolio" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#blog" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!-- end navbar -->
-
-        <!-- home intro -->
-        <div class="home-intro segments">
-            <div class="container">
-                <div class="intro-content box-content">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 col-sm-12 col-xs-12">
-                            <div class="intro-caption">
-                                <h2></h2>
-                                <h4></h4>
-                                <button class="button"><a href="#contact" class="nav-link">Say me; Hi</a></button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12">  
-                            <div class="intro-image">
-                                <img src="images/intro-image.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end home intro -->
-
-    </header>
-    <!-- end header -->
-
-    <!-- about -->
-    <div id="about" class="about segments">
-        <div class="container">
-            <div class="box-content">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="content-left">
-                            <div class="section-title section-title-left">
-                                <h3></h3>
-                            </div>
-                            <div class="content">
-                                <h2></h2>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="content-right"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end about -->
-
-    
-
-    <!-- contact -->
-    <div id="contact" class="contact segments">
-        <div class="container">
-            <div class="box-content">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="content-left">
-                            <div class="section-title section-title-left">
-                                <h3>Contacts</h3>
-                            </div>
-                            <h3>Thank you for visiting my site. <br><br>Here are my contact details:</h3>
-                            <br><br>
-                            <ul>
-                                <li>
-                                    <a href="https://twitter.com/M_Alkabbani/"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/MAlkabbani/"><i class="fab fa-github"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/mohamad-alkabbani/"><i class="fab fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="content-right">
-                             <form method="post" action="https://forms.un-static.com/forms/f28ab19c1c5ef8c21f69e2ec1c46bfbd9741039c">
-                                 <!--- <form action="contact-form.php" class="contact-form" id="contact-form" method="post"> --->
-                                <div class="row">
-                                    <div class="col">
-                                        <div id="first-name-field">
-                                            <input type="text" placeholder="First Name" class="form-control" name="form-name">
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div id="last-name-field">
-                                            <input type="text" placeholder="Last Name" class="form-control" name="form-name">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div id="email-field">
-                                            <input type="email" placeholder="Email Address" class="form-control" name="form-email">
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div id="subject-field">
-                                            <input type="text" placeholder="Subject" class="form-control" name="form-subject">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div id="message-field">
-                                            <textarea cols="30" rows="5" class="form-control" id="form-message" name="form-message" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="button" type="submit" id="submit" name="submit">Let's connect!</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end contact -->
-
-    <!-- footer -->
-    <div class="footer segments">
-        <div class="container">
-            <div class="box-content">
-                <p>Copyright © 2024, Mohamad Alkabbani.</p> 
-            </div>
-        </div>
-    </div>
-    <!-- end footer -->
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/fakeLoader.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.filterizr.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/main.js"></script>
-
-
+    <div id="jaas-container" />
 </body>
 
 </html>
